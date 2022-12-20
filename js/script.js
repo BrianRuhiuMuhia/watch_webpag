@@ -1,0 +1,6 @@
+const timeline=gsap.timeline({default:{duration:4}})
+timeline.from(".image-one",{duration:4,x:"-100vw",ease:"bounce"})
+.from(".image-two",{duration:4,x:"100vw",ease:"bounce"})
+.from(".image-three",{duration:4,x:"-100vw",ease:"bounce"})
+.from(".image-four",{duration:4,x:"100vw",ease:"bounce"})
+.from(".image-five",{duration:4,x:"-100vw",ease:"bounce"})
